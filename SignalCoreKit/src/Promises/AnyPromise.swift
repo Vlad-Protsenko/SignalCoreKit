@@ -4,7 +4,7 @@
 
 import Foundation
 
-@objc
+@objc(SignalAnyPromise)
 public class AnyPromise: NSObject {
     private let (anyPromise, anyFuture) = Promise<Any>.pending()
 
